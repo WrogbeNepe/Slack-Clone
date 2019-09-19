@@ -101,6 +101,9 @@ class ChatScreen extends Component {
    }
     return (
       <div style={styles.container}>
+        <header style={styles.header}>
+          <h2>Chatly</h2>
+        </header>
         <div style={styles.chatContainer}>
           <aside style={styles.whosOnlineListContainer}>
             <WhosOnlineList
